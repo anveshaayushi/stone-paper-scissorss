@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+h1{
+    background-color: #081B31;
+    Color:#fff;
+    height:5 rem;
+    line-height: 5 rem;
+    text-align:center;
+
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/482/193/non_2x/volcanic-eruption-outdoor-scene-background-free-vector.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+
+
+}
+.choice{
+    height:150px;
+    width:150px;
+
+}
+.choice:hover{
+    opacity:0.5;
+    cursor:pointer;
+    border-bottom: 2px;
+    border:solid;
+    border-color: #081B31;
+    border-radius: 50%;
+}
+img{
+    height:150px;
+    width:150px;
+    object-fit:cover;
+    border-radius: 50%;
+
+}
+
+.game-cont{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   gap: 7rem;
+   margin-top: 5rem;
+   
+}
+.score-board{
+    margin-top:5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5rem;
+    font-size: 1.5rem;
+}
+#user-score
+,#comp-score{
+    font-size: 4rem;
+}
+.idk{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5rem;
+}
+.msg-container{
+    margin-top:5 rem;
+    background-color:#081b31;
+    color:#fff;
+    height:5 rem;
+    display: inline;
+    padding:1 rem;
+    border-radius:20%;
+    font-size:2rem;
+    align-items: center;
+    
+    
+
+}
+
+
+
+
+
+
